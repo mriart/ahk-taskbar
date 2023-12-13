@@ -1,8 +1,7 @@
 # ahk-taskbar
-Script with AutoHotKey that closes open windows in the taskbar with the shortcut winkey+leftclick.
+Script with AutoHotKey that closes open windows in the taskbar with the shortcut winkey+leftclick. It is useful when having lots of opened windows.
 
 Uses AutoHotKey (https://www.autohotkey.com) V2.
 
-There are 2 files: 
-  1) the AHK script
-  2) the CMD to launch it in background
+Use this to launch it in background:
+start /B AutoHotkey64.exe taskbar.ahk
