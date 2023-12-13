@@ -1,4 +1,4 @@
-#LButton::{                                     ;Click winkey + left click mouse
+#LButton::{                                         ;Click winkey + left click mouse
 	WinActivate "ahk_class Shell_TrayWnd"       ;Defocus all windows
 	Send '{LButton}'                            ;Send left click to get focus
 	Sleep 200
